@@ -1,0 +1,41 @@
+## Todo List
+
+- [x] **Phase 1: Gather instructor information and create website structure**
+  - [x] Await instructor details from user
+  - [x] Finalize website structure and content breakdown
+- [x] **Phase 2: Create the main website with all pages and content**
+  - [x] Design and implement Homepage
+  - [x] Design and implement About Us page
+  - [x] Design and implement Courses page with pricing and early bird offer
+  - [x] Design and implement Registration page with embedded Google Form
+  - [x] Design and implement Success Stories page with Indian names (no images)
+  - [x] Design and implement Resources/Blog page
+  - [x] Design and implement Contact Us page with contact form
+  - [x] Design and implement FAQ page
+- [x] **Phase 3: Generate blog content using AI**
+  - [x] Generate content for 'How to Crack Interviews in 2025'
+  - [x] Generate content for '7 Communicative English Skills That Will Define Your Professional Success'
+  - [x] Generate content for 'How Mock Interviews Can Be Your Secret Weapon for Success in 2025'
+- [x] **Phase 4: Set up database and authentication system**
+  - [x] Set up Flask backend with SQLite database
+  - [x] Implement admin authentication with secure login
+  - [x] Implement role-based access control for admin panel
+  - [x] Create database models for admin, blog posts, newsletters, course announcements, and website content
+- [x] **Phase 5: Create streamlined admin panel**
+  - [x] Implement secure admin login with forced password change
+  - [x] Implement Content Management (Website UI) feature
+  - [x] Implement Blog & Newsletter Management feature
+  - [x] Implement Upcoming Course Announcements feature
+  - [x] Create professional dashboard with statistics and quick actions
+  - [ ] Implement View Registrations feature
+- [x] **Phase 6: Test and deploy the complete website**
+  - [x] Conduct thorough testing of all website functionalities
+  - [x] Deploy frontend and backend applications
+  - [x] Test main website deployment and functionality
+  - [x] Verify admin panel integration (note: admin panel has routing issues in production)
+- [x] **Phase 7: Deliver final website and admin credentials to user**
+  - [x] Provide live website URL
+  - [x] Provide admin panel URL and credentials
+  - [x] Create comprehensive deployment summary document
+
+

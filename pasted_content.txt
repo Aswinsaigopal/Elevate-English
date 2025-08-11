@@ -1,0 +1,152 @@
+Create a professional English Communication Skills Online Classes website with the following specifications:
+
+HOMEPAGE DESIGN:
+- Hero section with headline "Elevate Your Career with Professional English Communication Skills!"
+- Subheadline "Ready to land your dream job? Join our online classes designed to give you the competitive edge you need."
+- Two prominent CTA buttons: "Register Now" (primary) and "Book Free Demo" (secondary)
+- Professional background image of confident business professionals
+
+VALUE PROPOSITION SECTION:
+Create four service cards with icons:
+1. Communication English Classes - "Build confidence and fluency for both professional and everyday conversations"
+2. Mock Interviews - "Practice with realistic scenarios and receive constructive feedback to ace your next interview"
+3. Personalized 1:1 Sessions - "Get tailored guidance and support to address your specific learning needs"
+4. Resume Building - "Craft a standout resume that highlights your strengths and gets you noticed"
+
+INSTRUCTOR SECTION:
+- Title: "Meet Your Expert Instructor"
+- Professional bio highlighting 5+ years of IT industry experience as Business Analyst, Domain Expert, and Placement Faculty
+- Placeholder for instructor photo
+- Credentials display area
+
+QR CODE REGISTRATION SECTION:
+- Large QR code placeholder with text "Scan the QR code to register today!"
+- Alternative "Register Online" button below QR code
+
+PAGES TO CREATE:
+1. Homepage (as described above)
+2. About Us - detailed instructor background and company mission
+3. Courses - detailed breakdown of all four services with pricing
+4. Registration Form - multi-step form with personal info, course selection, preferred schedule
+5. Success Stories - testimonials and placement statistics
+6. Resources/Blog - educational articles and tips
+7. Contact Us - contact form with WhatsApp integration
+8. FAQ - common questions about courses and policies
+
+DESIGN REQUIREMENTS:
+- Modern, professional design with blue/white color scheme
+- Fully responsive for mobile, tablet, desktop
+- Clean typography with good readability
+- Professional icons for services
+- Smooth animations and hover effects
+- Fast loading times
+- SEO-optimized structure
+
+DATABASE INTEGRATION:
+Set up Supabase with these tables:
+- users (id, email, full_name, phone, role, created_at, force_password_change)
+- courses (id, name, description, price, duration, capacity)
+- enrollments (id, user_id, course_id, enrollment_date, payment_status)
+- blog_posts (id, title, content, author_id, published_at, category)
+- testimonials (id, student_name, course_taken, testimonial_text, rating)
+
+AUTHENTICATION SYSTEM:
+- User registration and login
+- Role-based access (student, admin)
+- Email verification for new users
+- Password reset functionality
+- Session management
+
+
+
+Create a comprehensive admin panel with the following security features:
+
+ADMIN AUTHENTICATION:
+- Create a secure admin login page accessible at "/admin"
+- Default admin credentials: Username: Sai1994, Password: xhchy1021
+- IMPORTANT: Implement forced password change on first login
+- After successful login with default credentials, immediately redirect to "/admin/change-password"
+- Block access to all admin features until password is changed
+- New password requirements: minimum 8 characters, must include uppercase, lowercase, number, and special character
+
+FORCED PASSWORD CHANGE FLOW:
+1. Add "force_password_change" boolean field to users table (default: true for admin)
+2. On login, check if force_password_change = true
+3. If true, redirect to password change form before allowing access to dashboard
+4. Password change form should:
+   - Require current password confirmation
+   - New password input with strength indicator
+   - Confirm new password field
+   - Update force_password_change to false after successful change
+   - Show success message and redirect to admin dashboard
+
+ADMIN DASHBOARD FEATURES:
+- Dashboard overview with key metrics:
+  * Total registered students
+  * Active course enrollments
+  * Monthly revenue
+  * Recent registrations
+  * Blog post engagement stats
+
+STUDENT MANAGEMENT:
+- View all registered students in data table
+- Student profile details (name, email, phone, courses enrolled)
+- Filter and search students
+- Export student data to CSV
+- Send bulk notifications to students
+- Track student progress and payments
+
+COURSE MANAGEMENT:
+- Create, edit, delete courses
+- Set course capacity and pricing
+- View enrollment statistics per course
+- Manage course schedules
+- Upload course materials
+- Track completion rates
+
+CONTENT MANAGEMENT SYSTEM (BLOG):
+- Rich text editor for creating blog posts
+- Image upload and media library
+- Category and tag management
+- Draft, published, scheduled post states
+- SEO meta tags for each post
+- View analytics (views, engagement)
+- Comment moderation (if enabled)
+
+COMMUNICATION TOOLS:
+- Compose and send emails to students
+- SMS notification system
+- Create automated email sequences
+- View message history
+- Broadcast announcements
+
+FINANCIAL MANAGEMENT:
+- Payment tracking and status
+- Generate invoices and receipts
+- Revenue reports and analytics
+- Refund processing
+- Payment gateway integration status
+
+SECURITY FEATURES:
+- Session timeout after 30 minutes of inactivity
+- Login attempt logging and rate limiting
+- Secure file upload restrictions
+- Data encryption for sensitive information
+- Admin activity logging
+- Two-factor authentication option
+
+UI/UX REQUIREMENTS:
+- Clean, professional admin interface
+- Responsive design for mobile admin access
+- Dark/light theme toggle
+- Intuitive navigation sidebar
+- Breadcrumb navigation
+- Loading states and error handling
+- Confirmation dialogs for destructive actions
+
+
+Registration Link - 
+
+https://forms.gle/UtUHWfBTpySSdsZQ6
+
+Logo is attached 
